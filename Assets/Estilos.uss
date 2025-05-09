@@ -1,0 +1,98 @@
+.contenedor {
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+}
+
+.izquierda {
+    width: 100%;
+    height: 100%;
+    min-width: 400px;
+    max-width: 500px;
+    align-items: center;
+    justify-content: space-between;
+    align-self: flex-start;
+    align-content: flex-start;
+    background-color: rgb(51, 137, 212);
+}
+
+.derecha {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(38, 38, 38);
+}
+
+.logo {
+    width: 100%;
+    background-color: rgba(84, 84, 84, 0);
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    background-image: url("project://database/Assets/upscalemedia-transformed.png?fileID=2800000&guid=579cfab57473f0542867c2ebf02bfa91&type=3#upscalemedia-transformed");
+    -unity-background-scale-mode: scale-and-crop;
+    height: 469px;
+    background-size: 628px 628px;
+}
+
+.botones-container {
+    width: 100%;
+    background-color: rgba(34, 103, 103, 0);
+    min-height: auto;
+    -unity-background-scale-mode: stretch-to-fill;
+    height: 469px;
+    background-size: 100% 628px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    min-height: 200px;
+    background-size: 100% 628px;
+    height: 469px;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-container {
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 65px;
+}
+
+.boton-menu {
+    width: 100%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    -unity-font-definition: url("project://database/Assets/Orbitron-VariableFont_wght.ttf?fileID=12800000&guid=7f4267064ba9a464fa9a9a1399de17c8&type=3#Orbitron-VariableFont_wght");
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    -unity-background-scale-mode: stretch-to-fill;
+    -unity-background-image-tint-color: rgb(255, 254, 254);
+    background-color: rgb(38, 38, 38);
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    white-space: normal;
+    transition-timing-function: ease-out;
+    transition-duration: 0.2s;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.boton-menu:hover {
+    background-color: rgba(156, 255, 0, 0.75);
+    height: 70px;
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(255, 255, 255);
+    font-size: 27px;
+    -unity-font-style: bold;
+}
