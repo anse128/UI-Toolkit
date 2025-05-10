@@ -108,6 +108,9 @@
     align-content: auto;
     width: 75%;
     height: 100%;
+    translate: 100% 0;
+    transition-timing-function: ease-out;
+    transition-duration: 0.5s;
 }
 
 .hangar {
@@ -292,4 +295,14 @@
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     scale: 1.1 1.1;
+}
+
+.derecha-activo {
+    align-items: center;
+    justify-content: center;
+    align-self: auto;
+    align-content: auto;
+    width: 75%;
+    height: 100%;
+    translate: 0% 0;
 }

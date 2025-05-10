@@ -13,8 +13,8 @@
                 <ui:VisualElement name="boton-container" class="boton-container">
                     <ui:Button text="RANKING" class="boton-menu" />
                 </ui:VisualElement>
-                <ui:VisualElement name="boton-container" class="boton-container">
-                    <ui:Button text="HANGAR" class="boton-menu" />
+                <ui:VisualElement name="Hangar" class="boton-container">
+                    <ui:Button text="HANGAR" name="Hangar-Button" class="boton-menu" />
                 </ui:VisualElement>
                 <ui:VisualElement name="boton-container" class="boton-container">
                     <ui:Button text="RANKING" class="boton-menu" />
@@ -28,15 +28,15 @@
             <ui:VisualElement name="Hangar" class="hangar" style="justify-content: flex-end; align-self: auto; flex-direction: column;">
                 <ui:Label text="HANGAR" name="hangar-titulo" class="hangar-titulo" />
                 <ui:VisualElement name="hangar-naves" class="hangar-naves" style="height: 100%; align-items: stretch; justify-content: space-between;">
-                    <ui:VisualElement name="Izquierda" class="naves-izquierda">
-                        <ui:Button name="Button" enabled="true" class="boton-nave" />
-                        <ui:Button name="Button" class="boton-nave" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=5923138177525885446&amp;guid=69ca4b1bbcde3784b9827fc6d8f645ee&amp;type=3#arrow-left&quot;);" />
-                        <ui:Button name="Button" class="boton-nave" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-4521532143779581420&amp;guid=69ca4b1bbcde3784b9827fc6d8f645ee&amp;type=3#arrow-right&quot;);" />
-                        <ui:Button name="Button" class="boton-nave" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-2236324273849735119&amp;guid=69ca4b1bbcde3784b9827fc6d8f645ee&amp;type=3#arrow-up&quot;);" />
-                        <ui:Button name="Button" class="boton-nave" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=8300712400058098730&amp;guid=69ca4b1bbcde3784b9827fc6d8f645ee&amp;type=3#check-dash&quot;);" />
-                        <ui:Button name="Button" class="boton-nave" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2346436936791262179&amp;guid=69ca4b1bbcde3784b9827fc6d8f645ee&amp;type=3#console.infoicon&quot;);" />
+                    <ui:VisualElement name="Naves-izquierda" class="naves-izquierda">
+                        <ui:Button name="Nave01" enabled="true" class="boton-nave" />
+                        <ui:Button name="Nave02" class="boton-nave" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=5923138177525885446&amp;guid=69ca4b1bbcde3784b9827fc6d8f645ee&amp;type=3#arrow-left&quot;);" />
+                        <ui:Button name="Nave03" class="boton-nave" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-4521532143779581420&amp;guid=69ca4b1bbcde3784b9827fc6d8f645ee&amp;type=3#arrow-right&quot;);" />
+                        <ui:Button name="Nave04" class="boton-nave" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-2236324273849735119&amp;guid=69ca4b1bbcde3784b9827fc6d8f645ee&amp;type=3#arrow-up&quot;);" />
+                        <ui:Button name="Nave05" class="boton-nave" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=8300712400058098730&amp;guid=69ca4b1bbcde3784b9827fc6d8f645ee&amp;type=3#check-dash&quot;);" />
+                        <ui:Button name="Nave06" class="boton-nave" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2346436936791262179&amp;guid=69ca4b1bbcde3784b9827fc6d8f645ee&amp;type=3#console.infoicon&quot;);" />
                     </ui:VisualElement>
-                    <ui:VisualElement name="Derecha" class="naves-derecha">
+                    <ui:VisualElement name="Naves-derecha" class="naves-derecha">
                         <ui:Label text="Selecciona una nave&#10;" name="Instruccion" class="propiedad" />
                         <ui:Label text="Nombre Nombre" name="Nave-nombre" class="nave-nombre" />
                         <ui:VisualElement name="Estadistica" class="estadistica">
@@ -57,7 +57,7 @@
                         </ui:VisualElement>
                     </ui:VisualElement>
                 </ui:VisualElement>
-                <ui:Button text="Volver" name="hangar-volver" class="hangar-volver" />
+                <ui:Button text="Volver" name="Hangar-volver" class="hangar-volver" />
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
