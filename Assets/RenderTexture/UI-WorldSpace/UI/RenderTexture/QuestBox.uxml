@@ -1,0 +1,16 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/QuestBox.uss?fileID=7433441132597879392&amp;guid=cb892b4512e4d1849b8cc64e386220c7&amp;type=3#QuestBox" />
+    <ui:VisualElement name="Container" class="container">
+        <ui:VisualElement name="MenuContainer" class="menucontainer">
+            <ui:VisualElement name="ContainerUp" class="containerup">
+                <ui:VisualElement name="Image" class="image" style="background-image: url(&quot;project://database/Assets/RenderTexture/UI-WorldSpace/UI/RenderTexture/fantasmita.PNG?fileID=2800000&amp;guid=a7884e21da23c8344a93f2b8ba08dccd&amp;type=3#fantasmita&quot;);" />
+                <ui:Label text="Hi, I am a lonely, sad capsule.&#10;Can you help find me a casule partner?" parse-escape-sequences="false" class="text unity-text-element unity-label" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ContainerDown" class="containerdown">
+                <ui:Button text="YES" name="Yes" class="button-left hover" />
+                <ui:Button text="NOPE" name="Nope" class="button-right" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="Cursor" style="flex-grow: 1; display: flex; position: absolute; width: 8%; height: 5%; background-color: rgb(255, 255, 255); border-top-left-radius: 100%; border-top-right-radius: 100%; border-bottom-right-radius: 100%; border-bottom-left-radius: 100%; top: 0%; left: 0%; right: 0%; bottom: 0%;" />
+</ui:UXML>
